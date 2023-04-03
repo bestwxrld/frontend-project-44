@@ -1,25 +1,23 @@
-import { getAnswer } from './cli.js';
+import { greet } from './cli.js';
+import { getYourAnswer } from './smth.js';
 
-const roundsCount = 3;
-
-const startGame = (gameFunction, gameRules, playerName) => {
+const playGame = (gameRules, getQuestionAndAnswer) => {
+  const name = greet();
   console.log(gameRules);
-
-  for (let i = 1; i <= roundsCount; i += 1) {
-    const [question, coorrectAnswer] = gameFunction();
-    const playerAnswer = getAnswer(question);
-
-    if (coorrectAnswer === playerAnswer) {
+  let i = 0;
+  while (i < 3) {
+    const [question, correctAnswer] = getQuestionAndAnswer();
+    console.log(`Question: ${question}`);
+    const yourAnswer = getYourAnswer();
+    if (correctAnswer === yourAnswer) {
       console.log('Correct!');
+      i += 1;
     } else {
-      console.log(`'${playerAnswer}' is wrong answer ;(. Correct answer was '${coorrectAnswer}'.`);
-      console.log(`Let's try again, ${playerName}!`);
-      return false;
+      console.log(`'${yourAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
+      console.log(`Let's try again, ${name}!`);
+      return;
     }
   }
-
-  console.log(`Congratulations, ${playerName}!`);
-  return true;
+  console.log(`Congratulations, ${name}!`);
 };
-
-export default startGame;
+export default playGame;
