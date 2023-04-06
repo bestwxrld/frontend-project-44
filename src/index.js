@@ -1,5 +1,5 @@
 import { greet } from './cli.js';
-import { getYourAnswer } from './smth.js';
+import { getYourAnswer } from './utils.js';
 
 const playGame = (gameRules, getQuestionAndAnswer) => {
   const name = greet();

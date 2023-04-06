@@ -1,4 +1,4 @@
-import { randomizer, getCorrectAnswer } from '../smth.js';
+import { randomizer, getCorrectAnswer } from '../utils.js';
 import playGame from '../index.js';
 
 const gameRules = 'Answer "yes" if the number is even, otherwise answer "no".';
