@@ -12,3 +12,6 @@
 ### brain-calc:
 (https://asciinema.org/a/cl0pB7ziuQWmRJVM7IFwBh7D6)
 
+
+### brain-progression:
+(https://asciinema.org/a/rNNJHW6JOWdYVmg8yToo4sGHx)
