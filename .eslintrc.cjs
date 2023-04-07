@@ -8,7 +8,7 @@ parserOptions:
   sourceType: module
 rules:
   no-console: 0
-  import/extensions: 
+  import/extensions: # FIXME: remove when rule will be adjusted for new nodejs version
     - error
     - ignorePackages
     - js: always
