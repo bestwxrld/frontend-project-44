@@ -14,3 +14,4 @@ rules:
     - ignorePackages
     - js: always
   no-underscore-dangle: [2, { "allow": ["__filename", "__dirname"] }]
+  linebreak-style: ["error", process.env.NODE_ENV === 'prod' ? "unix" : "windows"]
