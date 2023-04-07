@@ -3,54 +3,55 @@
 ### Codeclimate:
 <a href="https://codeclimate.com/github/bestwxrld/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/100533276b0e4b96b4bd/maintainability" /></a>
 
-Игры разума» — набор из пяти консольных игр, построенных по принципу популярных мобильных приложений для прокачки мозга. Каждая игра задает вопросы, на которые нужно дать правильные ответы. После трех правильных ответов считается, что игра пройдена. Неправильные ответы завершают игру и предлагают пройти ее заново. Игры:
+<h2>About</h2>
+<p>"Brain games" is a set of five console games based on the popular mobile brain-pumping apps. Each game asks questions that need to be answered correctly. After three correct answers, the game is considered completed. Incorrect answers end the game and prompt you to play it again.</p>
 
-- Калькулятор. Арифметические выражения, которые необходимо вычислить.
-- Прогрессия. Поиск пропущенных чисел в последовательности чисел.
-- Определение четного числа.
-- Определение наибольшего общего делителя.
-- Определение простого числа.
-### Системные требования
- - Node v.18+
+<h2>Usage</h2>
+<p>You should have Node.js installed before proceeding. Only test JS against v19 and on macOS.</p>
 
+<h2>Short guide how to play:</h2>
+<p>You can type make brain-games to get only hello from the game.
+```bash
+brain-games
+```
 
+### Game 1: "Checking Parity"
+The essence of the game is this: the user is shown a random number. And he has to answer 'yes' if the number is even, or 'no' if it is odd. In case the user gives the wrong answer, the game ends. You must give the correct answer to three questions in a row.
 
-### Игра "Проверка на чётность"
-
-Для запуска игры выполните команду:
+To start the game, run the command:
 
 ```bash
 brain-even
 ```
 (https://asciinema.org/a/2hWUhjqP4Kp2Ksye6UR8OSCNI)
-### Игра "Калькулятор"
+### Game 2: "Calculator"
 
-Для запуска игры выполните команду:
+To start the game, run the command:
 
 ```bash
 brain-calc
 ```
 (https://asciinema.org/a/cl0pB7ziuQWmRJVM7IFwBh7D6)
-### Игра "Наибольший общий делитель"
+### Game 3: "Greatest common divisor"
 
-Для запуска игры выполните команду:
+To start the game, run the command:
 
 ```bash
 brain-gcdgame
 ```
 
 ( https://asciinema.org/a/kVuTV3jjM9Ovcq3dlDX78SAoB)
-### Игра "Арифметическая прогрессия"
+### Game 4: "Arithmetic progression"
 
-Для запуска игры выполните команду:
+To start the game, run the command:
 
 ```bash
 brain-progression
 ```
 (https://asciinema.org/a/rNNJHW6JOWdYVmg8yToo4sGHx)
-### Игра "Простое ли число?"
+### Game 5: "Is it a prime number?"
 
-Для запуска игры выполните команду:
+To start the game, run the command:
 
 ```bash
 brain-prime
