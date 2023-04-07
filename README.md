@@ -31,8 +31,15 @@ brain-even
 brain-calc
 ```
 (https://asciinema.org/a/cl0pB7ziuQWmRJVM7IFwBh7D6)
+### Игра "Наибольший общий делитель"
 
+Для запуска игры выполните команду:
 
+```bash
+brain-gcdgame
+```
+
+( https://asciinema.org/a/kVuTV3jjM9Ovcq3dlDX78SAoB)
 ### Игра "Арифметическая прогрессия"
 
 Для запуска игры выполните команду:
